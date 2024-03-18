@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 import java.net.http.HttpResponse;
 
 @RestController
-@SecurityRequirement(name = "basicAuth")
 @RequestMapping("/api/book")
 public class BookController {
 
